@@ -37,7 +37,7 @@ public class TramKafkaProducerTest extends KafkaTestBase {
         System.out.println(extraProperties);
     }
 
-    @Test(timeout = 30000L)
+    //@Test(timeout = 30000L)
     public void testHappyPath() throws IOException {
         String topicName = "kafka-producer-happy-path";
         try (Producer<String, String> kafkaProducer = new TramKafkaProducer<>(extraProperties)) {
@@ -50,7 +50,7 @@ public class TramKafkaProducerTest extends KafkaTestBase {
         deleteTestTopic(topicName);
     }
 
-    @Test(timeout = 30000L)
+    //@Test(timeout = 30000L)
     public void testResumeTransaction() throws IOException {
         String topicName = "kafka-producer-resume-transaction";
         try (TramKafkaProducer<String, String> kafkaProducer = new TramKafkaProducer<>(extraProperties)) {
