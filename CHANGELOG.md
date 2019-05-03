@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.6.1](https://github.com/networknt/light-tram-kafka/tree/1.6.1) (2019-05-03)
+
+
+**Merged pull requests:**
+
+
+- fixes \#3 remove unused properties from pom.xml [\#4](https://github.com/networknt/light-tram-kafka/pull/4) ([stevehu](https://github.com/stevehu))
 ## [1.6.0](https://github.com/networknt/light-tram-kafka/tree/1.6.0) (2019-04-05)
 
 
