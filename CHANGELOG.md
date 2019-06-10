@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.6.4](https://github.com/networknt/light-tram-kafka/tree/1.6.4) (2019-06-10)
+
+
+**Merged pull requests:**
+
+
+- fixes \#5 add both release and snapshot repositories [\#6](https://github.com/networknt/light-tram-kafka/pull/6) ([stevehu](https://github.com/stevehu))
 ## [1.6.2](https://github.com/networknt/light-tram-kafka/tree/1.6.2) (2019-05-17)
 
 
