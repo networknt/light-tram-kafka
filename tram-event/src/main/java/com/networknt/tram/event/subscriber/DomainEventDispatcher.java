@@ -7,8 +7,6 @@ import com.networknt.tram.message.common.Message;
 import com.networknt.tram.message.consumer.MessageConsumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.annotation.PostConstruct;
 import java.util.Optional;
 
 public class DomainEventDispatcher {
@@ -25,7 +23,6 @@ public class DomainEventDispatcher {
     this.messageConsumer = messageConsumer;
   }
 
-  @PostConstruct
   public void initialize() {
     messageConsumer.subscribe(eventDispatcherId, domainEventHandlers.getAggregateTypesAndEvents(), this::messageHandler);
   }

@@ -14,7 +14,6 @@ import com.networknt.tram.message.producer.MessageProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -50,7 +49,6 @@ public class CommandDispatcher {
     initialize();
   }
 
-  @PostConstruct
   public void initialize() {
     messageConsumer.subscribe(commandDispatcherId,
             commandHandlers.getChannels().stream().map(channelMapping::transform).collect(toSet()),
