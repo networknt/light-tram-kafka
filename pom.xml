@@ -112,8 +112,9 @@
         <version.scala.binary>2.11</version.scala.binary>
         <version.kafka>2.0.0</version.kafka>
         <version.curator>2.12.0</version.curator>
-        <version.javadoc-packagelist-plugin>1.0.0</version.javadoc-packagelist-plugin>
         <versions.maven-version>2.4</versions.maven-version>
+        <version.javadoc-packagelist-plugin>1.0.0</version.javadoc-packagelist-plugin>
+        <version.maven-javadoc>3.1.0</version.maven-javadoc>
     </properties>
 
     <modules>
@@ -337,7 +338,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.10.4</version>
+                <version>${version.maven-javadoc}</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
