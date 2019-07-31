@@ -6,6 +6,8 @@
 **Merged pull requests:**
 
 
+
+
 ## [2.0.2](https://github.com/networknt/light-tram-kafka/tree/2.0.2) (2019-07-10)
 
 
