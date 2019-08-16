@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.4](https://github.com/networknt/light-tram-kafka/tree/2.0.4) (2019-08-16)
+
+
+**Merged pull requests:**
+
+
+- fixes \#8 upgrade jackson-databind to 2.9.9.3 [\#9](https://github.com/networknt/light-tram-kafka/pull/9) ([stevehu](https://github.com/stevehu))
 ## [2.0.3](https://github.com/networknt/light-tram-kafka/tree/2.0.3) (2019-07-31)
 
 
