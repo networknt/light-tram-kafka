@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.13](https://github.com/networknt/light-tram-kafka/tree/2.0.13) (2020-05-01)
+
+
+**Merged pull requests:**
+
+
 ## [2.0.11](https://github.com/networknt/light-tram-kafka/tree/2.0.11) (2020-02-29)
 
 
