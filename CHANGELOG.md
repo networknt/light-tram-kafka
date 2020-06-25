@@ -1,9 +1,72 @@
 # Change Log
 
+## [1.6.23](https://github.com/networknt/light-tram-kafka/tree/1.6.23) (2020-06-22)
+
+
+**Merged pull requests:**
+
+
+- fixes \#10 remove the temporary version.jackson-databind in the pom.xml [\#11](https://github.com/networknt/light-tram-kafka/pull/11) ([stevehu](https://github.com/stevehu))
+## [1.6.22](https://github.com/networknt/light-tram-kafka/tree/1.6.22) (2020-06-06)
+
+
+**Merged pull requests:**
+
+
+## [1.6.21](https://github.com/networknt/light-tram-kafka/tree/1.6.21) (2020-06-05)
+
+
+**Merged pull requests:**
+
+
+## [1.6.20](https://github.com/networknt/light-tram-kafka/tree/1.6.20) (2020-05-29)
+
+
+**Merged pull requests:**
+
+
+
+
+## [1.6.19](https://github.com/networknt/light-tram-kafka/tree/1.6.19) (2020-05-01)
+
+
+**Merged pull requests:**
+
+
+## [1.6.17](https://github.com/networknt/light-tram-kafka/tree/1.6.17) (2020-02-29)
+
+
+**Merged pull requests:**
+
+
+
+
+## [1.6.16](https://github.com/networknt/light-tram-kafka/tree/1.6.16) (2020-02-06)
+
+
+**Merged pull requests:**
+
+
+## [1.6.15](https://github.com/networknt/light-tram-kafka/tree/1.6.15) (2020-02-06)
+
+
+**Merged pull requests:**
+
+
+
+
+## [1.6.14](https://github.com/networknt/light-tram-kafka/tree/1.6.14) (2020-01-31)
+
+
+**Merged pull requests:**
+
+
 ## [1.6.13](https://github.com/networknt/light-tram-kafka/tree/1.6.13) (2019-12-30)
 
 
 **Merged pull requests:**
+
+
 
 
 ## [1.6.12](https://github.com/networknt/light-tram-kafka/tree/1.6.12) (2019-12-30)
