@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.15](https://github.com/networknt/light-tram-kafka/tree/2.0.15) (2020-07-01)
+
+
+**Merged pull requests:**
+
+
+- fixes \#10 remove the temporary version.jackson-databind in the pom.xml [\#11](https://github.com/networknt/light-tram-kafka/pull/11) ([stevehu](https://github.com/stevehu))
 ## [2.0.14](https://github.com/networknt/light-tram-kafka/tree/2.0.14) (2020-05-29)
 
 
