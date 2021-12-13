@@ -94,7 +94,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.light-4j>2.0.33-SNAPSHOT</version.light-4j>
         <version.jackson>2.12.1</version.jackson>
-        <version.slf4j>1.7.25</version.slf4j>
+        <version.slf4j>1.7.32</version.slf4j>
         <version.commons-lang>2.6</version.commons-lang>
         <version.commons.codec>1.13</version.commons.codec>
         <version.encoder>1.2.1</version.encoder>
