@@ -19,7 +19,6 @@ package com.networknt.tram.test;
 
 import com.google.common.collect.Maps;
 import com.networknt.utility.NetUtils;
-import kafka.common.KafkaException;
 import kafka.metrics.KafkaMetricsReporter;
 import kafka.server.KafkaConfig;
 import kafka.server.KafkaServer;
@@ -30,6 +29,7 @@ import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.OffsetAndMetadata;
+import org.apache.kafka.common.KafkaException;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.TopicPartitionInfo;
 import org.apache.kafka.common.errors.TopicExistsException;
@@ -42,7 +42,6 @@ import scala.collection.mutable.ArraySeq;
 
 import java.io.File;
 import java.net.BindException;
-import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 
@@ -353,7 +352,7 @@ public class KafkaTestEnvironmentImpl implements KafkaTestEnvironment {
 
 			try {
 				scala.Option<String> stringNone = scala.Option.apply(null);
-				KafkaServer server = new KafkaServer(kafkaConfig, Time.SYSTEM, stringNone, new ArraySeq<KafkaMetricsReporter>(0));
+				KafkaServer server = new KafkaServer(kafkaConfig, Time.SYSTEM, stringNone, true);
 				server.startup();
 				return server;
 			}
