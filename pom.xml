@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.networknt</groupId>
     <artifactId>light-tram-kafka</artifactId>
-    <version>1.6.37-SNAPSHOT</version>
+    <version>1.6.46-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Parent POM</name>
     <description>Light Tram Kafka Framework Components</description>
@@ -92,19 +92,24 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.light-4j>1.6.37-SNAPSHOT</version.light-4j>
-        <version.jackson>2.12.1</version.jackson>
-        <version.slf4j>1.7.32</version.slf4j>
+        <version.light-4j>1.6.46-SNAPSHOT</version.light-4j>
+        <version.jackson>2.14.0</version.jackson>
+        <version.slf4j>1.7.36</version.slf4j>
         <version.commons-lang>2.6</version.commons-lang>
         <version.commons.codec>1.11</version.commons.codec>
         <version.encoder>1.2.1</version.encoder>
         <version.logback>1.2.11</version.logback>
+<<<<<<< HEAD
         <version.junit>4.12</version.junit>
+=======
+        <version.junit>4.13.1</version.junit>
+>>>>>>> ef065ccb65588170d0abd4c3797b4f47f047cc4d
         <version.mockito>2.10.0</version.mockito>
-        <version.undertow>2.2.4.Final</version.undertow>
+        <version.undertow>2.2.21.Final</version.undertow>
         <version.hamcrest>1.3</version.hamcrest>
         <version.assertj>3.8.0</version.assertj>
         <version.json-schema-validator>1.0.65</version.json-schema-validator>
+<<<<<<< HEAD
         <version.zookeeper>3.4.13</version.zookeeper>
         <version.zkclient>0.11</version.zkclient>
         <version.snakeyaml>1.33</version.snakeyaml>
@@ -112,6 +117,12 @@
         <version.scala.binary>2.11</version.scala.binary>
         <version.kafka>2.0.0</version.kafka>
         <version.curator>2.12.0</version.curator>
+=======
+        <version.snakeyaml>1.33</version.snakeyaml>
+        <version.scala.binary>2.13</version.scala.binary>
+        <version.kafka>3.4.0</version.kafka>
+        <version.curator>5.4.0</version.curator>
+>>>>>>> ef065ccb65588170d0abd4c3797b4f47f047cc4d
         <versions.maven-version>2.4</versions.maven-version>
         <argLine>-Xmx512m -XX:MaxPermSize=256m</argLine>
     </properties>
@@ -216,7 +227,7 @@
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
-                <version>${version.kafka-clients}</version>
+                <version>${version.kafka}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>

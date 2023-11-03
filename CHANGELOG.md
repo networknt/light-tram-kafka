@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.6.45](https://github.com/networknt/light-tram-kafka/tree/1.6.45) (2023-03-18)
+
+
+**Merged pull requests:**
+
+
+
+
+## [1.6.39](https://github.com/networknt/light-tram-kafka/tree/1.6.39) (2022-04-26)
+
+
+**Merged pull requests:**
+
+
 ## [1.6.38](https://github.com/networknt/light-tram-kafka/tree/1.6.38) (2022-02-19)
 
 

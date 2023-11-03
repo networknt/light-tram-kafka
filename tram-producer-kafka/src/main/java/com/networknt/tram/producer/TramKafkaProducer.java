@@ -1,6 +1,7 @@
 package com.networknt.tram.producer;
 
 import com.networknt.config.Config;
+import org.apache.kafka.clients.consumer.ConsumerGroupMetadata;
 import org.apache.kafka.clients.consumer.OffsetAndMetadata;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.clients.producer.internals.TransactionalRequestResult;
@@ -13,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -116,6 +118,11 @@ public class TramKafkaProducer<K, V> implements Producer<K, V> {
     }
 
     @Override
+    public void sendOffsetsToTransaction(Map<TopicPartition, OffsetAndMetadata> map, ConsumerGroupMetadata consumerGroupMetadata) throws ProducerFencedException {
+        kafkaProducer.sendOffsetsToTransaction(map, consumerGroupMetadata);
+    }
+
+    @Override
     public Future<RecordMetadata> send(ProducerRecord<K, V> record) {
         return kafkaProducer.send(record);
     }
@@ -141,9 +148,10 @@ public class TramKafkaProducer<K, V> implements Producer<K, V> {
     }
 
     @Override
-    public void close(long timeout, TimeUnit unit) {
-        kafkaProducer.close(timeout, unit);
+    public void close(Duration duration) {
+        kafkaProducer.close(duration);
     }
+
 
     // -------------------------------- New methods or methods with changed behaviour --------------------------------
 
