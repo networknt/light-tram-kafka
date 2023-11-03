@@ -112,13 +112,13 @@
 <<<<<<< HEAD
         <version.zookeeper>3.4.13</version.zookeeper>
         <version.zkclient>0.11</version.zkclient>
-        <version.snakeyaml>1.33</version.snakeyaml>
+        <version.snakeyaml>2.2</version.snakeyaml>
         <version.kafka-clients>2.0.0</version.kafka-clients>
         <version.scala.binary>2.11</version.scala.binary>
         <version.kafka>2.0.0</version.kafka>
         <version.curator>2.12.0</version.curator>
 =======
-        <version.snakeyaml>1.33</version.snakeyaml>
+        <version.snakeyaml>2.2</version.snakeyaml>
         <version.scala.binary>2.13</version.scala.binary>
         <version.kafka>3.4.0</version.kafka>
         <version.curator>5.4.0</version.curator>
